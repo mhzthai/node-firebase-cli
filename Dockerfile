@@ -1,2 +1,2 @@
 FROM node:lts
-RUN npm install -g firebase-tools
+RUN wget https://firebase.tools/bin/linux/latest -O firebase_tools && chmod +x ./firebase_tools
